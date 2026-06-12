@@ -33,7 +33,7 @@
       "@components/*": [
         "./src/components/*"
       ],
-      "@functions/*": [
+      "@lib/*": [
         "./src/functions/*"
       ]
     }
