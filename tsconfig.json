@@ -27,6 +27,9 @@
       "@/*": [
         "./src/*"
       ],
+      "@pages/*": [
+        "./src/app/(pages)/*"
+      ],
       "@styles/*": [
         "./src/styles/*"
       ],
