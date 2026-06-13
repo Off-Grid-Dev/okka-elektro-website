@@ -1,0 +1,5 @@
+.divider {
+  border: none;
+  border-top: var(--border-thin) var(--color-border-tertiary);
+  margin: 0 var(--section-padding--x);
+}

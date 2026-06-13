@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "@styles/Header.module.css";
+import styles from "./Header.module.css";
 
 const navLinks = [
   { label: "services", href: "/services" },
