@@ -1,8 +1,8 @@
-import ShopTeaser from "@/components/ShopTeaser/ShopTeaser";
+import ShopTeaser from "@/components/ShopTeaser";
 import styles from "./page.module.css";
-import CTABanner from "@/components/CTABanner/CTABanner";
-import Hero from "@/components/Hero/Hero";
-import TrustSection from "@/components/TrustSection/TrustSection";
+import CTABanner from "@/components/CTABanner";
+import Hero from "@/components/Hero";
+import TrustSection from "@/components/TrustSection";
 
 export default function Home() {
   return (
