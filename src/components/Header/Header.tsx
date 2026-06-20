@@ -4,7 +4,7 @@ import styles from "./Header.module.css";
 const navLinks = [
   { label: "service", href: "/services" },
   { label: "reparasjon", href: "/repairs" },
-  { label: "kontakt", href: "/contact" },
+  { label: "kontakt", href: "/kontakt" },
 ];
 
 export default function Header() {

@@ -12,7 +12,7 @@ export default function CTABanner() {
             Ta den med innom eller send oss en melding — vi feilsøker den gratis og gir deg et ærlig svar.
           </p>
         </div>
-        <Link href="/contact" className={styles.cta}>
+        <Link href="/kontakt" className={styles.cta}>
           ta kontakt →
         </Link>
       </section>
