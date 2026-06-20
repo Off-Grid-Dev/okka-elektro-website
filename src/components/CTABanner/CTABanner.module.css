@@ -5,8 +5,7 @@
   gap: var(--space-8);
   padding: var(--space-16) var(--section-padding-x);
   background-color: var(--color-surface-brand);
-  border-top: var(--border-thin) solid var(--color-border-brand);
-  border-bottom: var(--border-thin) solid var(--color-border-brand);
+  border: var(--border-thin) solid var(--color-border-brand);
   margin-block-end: var(--space-20);
 }
 

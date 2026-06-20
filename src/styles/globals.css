@@ -110,13 +110,6 @@
   --color-cta-disabled: var(--color-volt-100);
   --color-cta-text: var(--color-volt-900);
 
-  /* Links */
-  /* 
-   * --color-link-default: var(--color-cyan-500);
-   * --color-link-hover: var(--color-cyan-700);
-   * --color-link-visited: var(--color-cyan-900);
-   */
-
   /* Status / feedback */
   --color-status-success-bg: var(--color-volt-50);
   --color-status-success-text: var(--color-volt-900);
