@@ -111,9 +111,11 @@
   --color-cta-text: var(--color-volt-900);
 
   /* Links */
-  --color-link-default: var(--color-cyan-500);
-  --color-link-hover: var(--color-cyan-700);
-  --color-link-visited: var(--color-cyan-900);
+  /* 
+   * --color-link-default: var(--color-cyan-500);
+   * --color-link-hover: var(--color-cyan-700);
+   * --color-link-visited: var(--color-cyan-900);
+   */
 
   /* Status / feedback */
   --color-status-success-bg: var(--color-volt-50);
@@ -359,6 +361,7 @@
   --max-w-content: 960px;
   --max-w-wide: 1200px;
   --max-w-full: 1440px;
+  --max-w-max: 1670px;
 
 
   /* ============================================================
@@ -448,21 +451,6 @@ p {
   line-height: var(--leading-relaxed);
   color: var(--color-text-primary);
   max-width: var(--max-w-prose);
-}
-
-a {
-  color: var(--color-link-default);
-  text-decoration: none;
-  transition: color var(--transition-base);
-}
-
-a:hover {
-  color: var(--color-link-hover);
-  text-decoration: underline;
-}
-
-a:visited {
-  color: var(--color-link-visited);
 }
 
 code,

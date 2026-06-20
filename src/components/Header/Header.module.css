@@ -7,6 +7,8 @@
   background-color: var(--color-bg-primary);
   border-bottom: var(--border-thin) solid var(--color-border-tertiary);
   position: relative;
+  max-width: var(--max-w-max);
+  margin-inline: auto;
 }
 
 /* ── Logo ─────────────────────────────────────────────────── */
@@ -73,7 +75,7 @@
   font-weight: var(--weight-medium);
   letter-spacing: var(--tracking-wider);
   text-transform: uppercase;
-  color: var(--color-text-secondary);
+  color: var(--color-text-primary);
   text-decoration: none;
   padding: var(--space-2) var(--space-3);
   border-radius: var(--radius-sm);
@@ -112,7 +114,7 @@
   font-family: var(--font-heading);
   font-size: var(--text-xs);
   letter-spacing: var(--tracking-wider);
-  color: var(--color-text-tertiary);
+  color: var(--color-text-secondary);
 }
 
 .statusDot {
@@ -129,7 +131,7 @@
   font-weight: var(--weight-bold);
   letter-spacing: var(--tracking-wider);
   text-transform: uppercase;
-  color: var(--color-btn-accent-text);
+  color: var(--color-btn-text-primary);
   background-color: var(--color-btn-accent-bg);
   border-radius: var(--radius-sm);
   padding: var(--space-2) var(--space-4);

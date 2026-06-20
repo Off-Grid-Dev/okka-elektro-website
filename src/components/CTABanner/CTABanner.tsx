@@ -5,10 +5,9 @@ export default function CTABanner() {
   return (
     <section className={styles.banner}>
       <div className={styles.text}>
-        <h2 className={styles.heading}>Not sure what your device needs?</h2>
+        <h2 className={styles.heading}>Usikker på hva enheten din trenger?</h2>
         <p className={styles.sub}>
-          Bring it in or send us a message — {`we'll`} diagnose it for free and
-          give you a straight answer.
+          Ta den med innom eller send oss en melding — vi feilsøker den gratis og gir deg et ærlig svar.
         </p>
       </div>
       <Link href="/contact" className={styles.cta}>

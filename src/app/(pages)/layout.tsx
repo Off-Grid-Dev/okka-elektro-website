@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import "@styles/globals.css";
 import Header from "@components/Header/Header";
+import Footer from "@components/Footer";
 
 const inter = Inter({
   variable: "--font-inter-sans",
@@ -27,7 +28,9 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${jetbrains.variable}`}>
       <body>
         <Header />
-        {children}</body>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

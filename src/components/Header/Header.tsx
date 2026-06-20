@@ -2,10 +2,9 @@ import Link from "next/link";
 import styles from "./Header.module.css";
 
 const navLinks = [
-  { label: "services", href: "/services" },
-  { label: "shop", href: "/shop" },
-  { label: "repairs", href: "/repairs" },
-  { label: "contact", href: "/contact" },
+  { label: "service", href: "/services" },
+  { label: "reparasjon", href: "/repairs" },
+  { label: "kontakt", href: "/contact" },
 ];
 
 export default function Header() {
@@ -35,10 +34,10 @@ export default function Header() {
       <div className={styles.right}>
         <span className={styles.status} aria-label="Currently open">
           <span className={styles.statusDot} aria-hidden="true" />
-          open now
+          åpent nå
         </span>
         <Link href="/repairs/book" className={styles.cta}>
-          book repair
+          book reparasjon
         </Link>
       </div>
 

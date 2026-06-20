@@ -7,6 +7,7 @@
   background-color: var(--color-surface-brand);
   border-top: var(--border-thin) solid var(--color-border-brand);
   border-bottom: var(--border-thin) solid var(--color-border-brand);
+  margin-block-end: var(--space-20);
 }
 
 .text {
