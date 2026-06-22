@@ -24,8 +24,8 @@ export async function POST(req: Request) {
     }
 
     await resend.emails.send({
-      from: "Okka Elektro <noreply@okkaelektro.no>",
-      to: "post@okkaelektro.no",
+      from: "Okka Elektro <noreply@mail.okka-elektro.no>",
+      to: "post@okka-elektro.no",
       replyTo: epost,
       subject: `Ny henvendelse fra ${navn}${enhet ? ` — ${enhet}` : ""}`,
       html: `

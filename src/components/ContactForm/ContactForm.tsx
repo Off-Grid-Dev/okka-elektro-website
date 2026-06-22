@@ -30,7 +30,7 @@ export default function ContactForm() {
 
     // Timing check — reject submissions under 3 seconds
     const elapsed = Date.now() - mountTime.current;
-    if (elapsed < 3000) {
+    if (elapsed < 2000) {
       setState("success"); // silently discard
       return;
     }
@@ -82,7 +82,7 @@ export default function ContactForm() {
             type="tel"
             id="telefon"
             name="telefon"
-            placeholder="+47 000 00 000"
+            placeholder="000 00 000"
             className={styles.input}
           />
         </div>
