@@ -21,7 +21,7 @@ export default function Hero() {
         </p>
 
         <div className={styles.actions}>
-          <Link href="/services" className={styles.btnGhost}>
+          <Link href="/tjenester" className={styles.btnGhost}>
             våre tjenester →
           </Link>
         </div>

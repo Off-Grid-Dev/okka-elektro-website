@@ -168,19 +168,21 @@
   font-family: var(--font-heading);
   font-size: var(--text-xs);
   letter-spacing: var(--tracking-wide);
-  color: var(--color-border-primary);
+  /* ↓ was --color-border-primary (#8a97ab, 3.1:1 ❌) → --color-text-tertiary (5.9:1 ✅) */
+  color: var(--color-text-tertiary);
 }
 
 .org {
   font-family: var(--font-heading);
   font-size: var(--text-xs);
   letter-spacing: var(--tracking-wide);
-  color: var(--color-border-primary);
+  /* ↓ same fix as .copyright */
+  color: var(--color-text-tertiary);
 }
 
 /* ── Mobile ───────────────────────────────────────────────── */
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .top {
     flex-direction: column;
     gap: var(--space-8);

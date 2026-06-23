@@ -118,6 +118,7 @@ export default function ContactForm() {
           id="melding"
           name="melding"
           placeholder="Beskriv problemet så godt du kan — hva skjedde, når det startet, osv."
+
           required
           className={styles.textarea}
         />

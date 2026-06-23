@@ -83,7 +83,8 @@
   text-transform: uppercase;
   color: var(--color-text-secondary);
   background-color: transparent;
-  border: var(--border-thin) solid var(--color-border-secondary);
+  /* ↓ was --color-border-secondary (#cdd4e0, 1.4:1 ❌) → --color-border-primary (#8a97ab, 2.8:1) ✅ visible outline */
+  border: var(--border-thin) solid var(--color-border-primary);
   border-radius: var(--radius-sm);
   padding: var(--space-3) var(--space-5);
   text-decoration: none;
@@ -130,7 +131,7 @@
 
 /* ── Mobile ───────────────────────────────────────────────── */
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .hero {
     padding: var(--space-8) var(--space-4) var(--space-8);
   }
