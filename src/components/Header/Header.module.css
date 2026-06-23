@@ -58,7 +58,7 @@
   color: var(--color-volt-500);
 }
 
-/* ── Nav ──────────────────────────────────────────────────── */
+/* ── Desktop nav ──────────────────────────────────────────── */
 
 .nav {
   display: flex;
@@ -93,12 +93,11 @@
   outline-offset: 2px;
 }
 
-/* active state — add via usePathname() in the component */
 .navLinkActive {
   color: var(--color-text-brand);
 }
 
-/* ── Right side ───────────────────────────────────────────── */
+/* ── Desktop right ────────────────────────────────────────── */
 
 .right {
   display: flex;
@@ -131,7 +130,7 @@
   font-weight: var(--weight-bold);
   letter-spacing: var(--tracking-wider);
   text-transform: uppercase;
-  color: var(--color-btn-text-primary);
+  color: var(--color-btn-accent-text);
   background-color: var(--color-btn-accent-bg);
   border-radius: var(--radius-sm);
   padding: var(--space-2) var(--space-4);
@@ -149,4 +148,18 @@
 .cta:focus-visible {
   outline: var(--border-thick) solid var(--color-border-focus);
   outline-offset: 2px;
+}
+
+/* ── Mobile — hide desktop nav and right side ─────────────── */
+
+@media (max-width: 900px) {
+  .header {
+    padding: 0 var(--space-4);
+    height: 56px;
+  }
+
+  .nav,
+  .right {
+    display: none;
+  }
 }

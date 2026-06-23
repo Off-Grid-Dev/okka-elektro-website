@@ -55,3 +55,31 @@
   outline: var(--border-thick) solid var(--color-border-focus);
   outline-offset: 2px;
 }
+
+/* ── Mobile ───────────────────────────────────────────────── */
+
+@media (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--space-5);
+    padding: var(--space-8) var(--space-4);
+    margin-block-end: 0;
+  }
+
+  .heading {
+    font-size: var(--text-xl);
+  }
+
+  .sub {
+    font-size: var(--text-sm);
+    max-width: none;
+  }
+
+  .cta {
+    width: 100%;
+    text-align: center;
+    padding: var(--space-4);
+    white-space: normal;
+  }
+}

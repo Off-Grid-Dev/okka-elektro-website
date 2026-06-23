@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 const jetbrains = JetBrains_Mono({
-  variable: "--font-jetbrains-mono",
+  variable: "--font-jetbrains",
   subsets: ["latin"],
 });
 
@@ -25,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${jetbrains.variable}`}>
+    <html lang="nb" className={`${inter.variable} ${jetbrains.variable}`}>
       <body>
         <Header />
         {children}

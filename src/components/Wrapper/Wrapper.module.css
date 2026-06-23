@@ -2,3 +2,9 @@
   max-width: var(--max-w-full);
   margin-inline: auto;
 }
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding-inline: 0;
+  }
+}

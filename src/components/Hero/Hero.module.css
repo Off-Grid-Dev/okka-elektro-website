@@ -127,3 +127,25 @@
   text-transform: uppercase;
   color: var(--color-text-tertiary);
 }
+
+/* ── Mobile ───────────────────────────────────────────────── */
+
+@media (max-width: 768px) {
+  .hero {
+    padding: var(--space-8) var(--space-4) var(--space-8);
+  }
+
+  .heading {
+    font-size: var(--text-3xl);
+    max-width: none;
+  }
+
+  .subheading {
+    font-size: var(--text-base);
+    max-width: none;
+  }
+
+  .stats {
+    display: none;
+  }
+}

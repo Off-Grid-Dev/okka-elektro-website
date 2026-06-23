@@ -1,9 +1,10 @@
 import Link from "next/link";
+import MobileMenu from "@components/MobileMenu";
 import styles from "./Header.module.css";
 
 const navLinks = [
-  { label: "service", href: "/services" },
-  { label: "reparasjon", href: "/repairs" },
+  { label: "tjenester", href: "/tjenester" },
+  { label: "reparasjoner", href: "/reparasjoner" },
   { label: "kontakt", href: "/kontakt" },
 ];
 
@@ -23,7 +24,8 @@ export default function Header() {
         </span>
       </Link>
 
-      <nav className={styles.nav} aria-label="Main navigation">
+      {/* Desktop nav — hidden on mobile via CSS */}
+      <nav className={styles.nav} aria-label="Hovednavigasjon">
         {navLinks.map(({ label, href }) => (
           <Link key={href} href={href} className={styles.navLink}>
             {label}
@@ -31,15 +33,19 @@ export default function Header() {
         ))}
       </nav>
 
+      {/* Desktop right — hidden on mobile via CSS */}
       <div className={styles.right}>
-        <span className={styles.status} aria-label="Currently open">
+        <span className={styles.status} aria-label="Åpent nå">
           <span className={styles.statusDot} aria-hidden="true" />
           åpent nå
         </span>
-        <Link href="/repairs/book" className={styles.cta}>
+        <Link href="/kontakt" className={styles.cta}>
           book reparasjon
         </Link>
       </div>
+
+      {/* Mobile menu — hamburger + drawer, only visible on mobile */}
+      <MobileMenu />
 
     </header>
   );
