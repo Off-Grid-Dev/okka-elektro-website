@@ -20,7 +20,7 @@ export const services: Service[] = [
     title: "Batteribytte",
     desc: "Mister enheten lading raskt? Vi bytter batteri på telefoner, nettbrett og bærbare PC-er med OEM-kvalitetskomponenter.",
     fullDesc:
-      "Et utslitt batteri er den vanligste årsaken til at en ellers god enhet føles ubrukelig. Vi bytter batteri på de fleste telefoner, nettbrett og bærbare PC-er. Alle batterier er OEM-kvalitet eller bedre, og vi tester kapasitet og ladeytelse både før og etter bytte. Prisen nedenfor er for selve arbeidet, batteriet og frakt kommer i tillegg. Behandlingstid inkluderer ikke evt bestillingstid og frakt av nytt batteri.",
+      "Et utslitt batteri er den vanligste årsaken til at en ellers god enhet føles ubrukelig. Vi bytter batteri på de fleste telefoner, nettbrett og bærbare PC-er. Alle batterier er OEM-kvalitet eller tredjeparts batteri av høy kvalitet, og vi tester kapasitet og ladeytelse både før og etter bytte. Prisen nedenfor er for selve arbeidet, batteriet og frakt kommer i tillegg. Behandlingstid inkluderer ikke evt bestillingstid og frakt av nytt batteri.",
     icon: "battery",
     details: [
       { label: "Behandlingstid", val: "Samme dag (1–3 timer)" },
