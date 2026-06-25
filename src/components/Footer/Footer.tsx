@@ -12,7 +12,7 @@ const navLinks = [
 const infoLinks = [
   { label: "Om oss", href: "/om-oss" },
   { label: "Personvern", href: "/personvern" },
-  { label: "Vilkår", href: "/vilkår" },
+  { label: "Vilkår", href: "/vilkar" },
 ];
 
 const openingHours = [
