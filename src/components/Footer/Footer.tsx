@@ -4,8 +4,8 @@ import Wrapper from "../Wrapper/Wrapper";
 
 const navLinks = [
   { label: "Tjenester", href: "/tjenester" },
-  { label: "Reparasjoner", href: "/reparasjoner" },
-  { label: "Butikk", href: "/butikk" },
+  // { label: "Reparasjoner", href: "/reparasjoner" },
+  // { label: "Butikk", href: "/butikk" },
   { label: "Kontakt", href: "/kontakt" },
 ];
 

@@ -3,8 +3,9 @@ import MobileMenu from "@components/MobileMenu";
 import styles from "./Header.module.css";
 
 const navLinks = [
+  { label: "hjem", href: "/" },
   { label: "tjenester", href: "/tjenester" },
-  { label: "reparasjoner", href: "/reparasjoner" },
+  // { label: "reparasjoner", href: "/reparasjoner" },
   { label: "kontakt", href: "/kontakt" },
 ];
 
