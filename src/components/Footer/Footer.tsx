@@ -4,8 +4,6 @@ import Wrapper from "../Wrapper/Wrapper";
 
 const navLinks = [
   { label: "Tjenester", href: "/tjenester" },
-  // { label: "Reparasjoner", href: "/reparasjoner" },
-  // { label: "Butikk", href: "/butikk" },
   { label: "Kontakt", href: "/kontakt" },
 ];
 
@@ -53,7 +51,7 @@ export default function Footer() {
               <div className={styles.contactItem}>
                 <dt className={styles.contactLabel}>E-post</dt>
                 <dd className={styles.contactValue}>
-                  <a href="mailto:post@okkaelektro.no">post@okkaelektro.no</a>
+                  <a href="mailto:kenneth@okka-elektro.no">kenneth@okka-elektro.no</a>
                 </dd>
               </div>
 
@@ -99,9 +97,9 @@ export default function Footer() {
         {/* BOTTOM ROW */}
         <div className={styles.bottom}>
           <span className={styles.copyright}>
-            © {new Date().getFullYear()} Okka Elektro — Alle rettigheter forbeholdt
+            © {new Date().getFullYear()} Okka Collins Drift — Alle rettigheter forbeholdt
           </span>
-          <span className={styles.org}>Org.nr. 123 456 789</span>
+          <span className={styles.org}>Org.nr. 930 502 308</span>
         </div>
       </Wrapper>
     </footer>

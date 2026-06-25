@@ -6,8 +6,10 @@ import styles from "./MobileMenu.module.css";
 
 const navLinks = [
   { label: "tjenester", href: "/tjenester" },
-  { label: "reparasjoner", href: "/reparasjoner" },
   { label: "kontakt", href: "/kontakt" },
+  { label: "Om oss", href: "/om-oss" },
+  { label: "Personvern", href: "/personvern" },
+  { label: "Vilkår", href: "/vilkar" },
 ];
 
 export default function MobileMenu() {

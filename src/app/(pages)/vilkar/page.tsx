@@ -32,7 +32,7 @@ export default function VilkarPage() {
           <section className={styles.section}>
             <h2 className={styles.sectionHeading}>Betaling</h2>
             <p className={styles.body}>
-              Betaling skjer etter at reparasjonen er fullført og du har fått demonstrert at enheten fungerer som forventet. Vi aksepterer Vipps og kontant. Faktura kan avtales for faste kunder.
+              Betaling skjer etter at reparasjonen er fullført og du har fått demonstrert at enheten fungerer som forventet. Vi aksepterer Vipps. Faktura kan avtales for faste kunder.
             </p>
           </section>
 
@@ -88,8 +88,8 @@ export default function VilkarPage() {
             <h2 className={styles.sectionHeading}>Spørsmål</h2>
             <p className={styles.body}>
               Lurer du på noe rundt vilkårene? Ta kontakt på{" "}
-              <a href="mailto:post@okkaelektro.no" className={styles.link}>
-                post@okkaelektro.no
+              <a href="mailto:kenneth@okka-elektro.no" className={styles.link}>
+                kenneth@okka-elektro.no
               </a>{" "}
               — vi svarer alltid.
             </p>

@@ -74,8 +74,8 @@ export default function PersonvernPage() {
             <h2 className={styles.sectionHeading}>Spørsmål?</h2>
             <p className={styles.body}>
               Har du spørsmål om personvern kan du ta kontakt på{" "}
-              <a href="mailto:post@okkaelektro.no" className={styles.link}>
-                post@okkaelektro.no
+              <a href="mailto:kenneth@okka-elektro.no" className={styles.link}>
+                kenneth@okka-elektro.no
               </a>.
             </p>
           </section>
