@@ -43,7 +43,7 @@ export default function PersonvernPage() {
           <section className={styles.section}>
             <h2 className={styles.sectionHeading}>Kontaktskjemaet</h2>
             <p className={styles.body}>
-              Når du sender en melding via kontaktskjemaet, brukes opplysningene du oppgir — navn, e-postadresse, telefonnummer og beskrivelse av henvendelsen — utelukkende til å svare deg. Opplysningene lagres ikke i noen database og deles ikke med noen tredjeparter.
+              Når du sender en melding via kontaktskjemaet, brukes opplysningene du oppgir — navn, e-postadresse, telefonnummer og beskrivelse av henvendelsen — utelukkende til å svare deg. Opplysningene lagres ikke i noen database. De behandles ikke av andre enn Resend, som fungerer som databehandler for videresending av e-post, og slettes automatisk etter utsendelse.
             </p>
             <p className={styles.body}>
               Meldingen sendes direkte til vår e-postkasse via Resend, en e-posttjeneste som er GDPR-kompatibel. Du kan lese mer om Resend sin personvernpolicy på{" "}
