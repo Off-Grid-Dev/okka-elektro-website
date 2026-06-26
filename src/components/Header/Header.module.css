@@ -33,10 +33,6 @@
   justify-content: center;
   flex-shrink: 0;
   animation: logo-pulse 990ms ease-in-out;
-
-  @media(max-width: 900px) {
-    margin-inline-start: 55%;
-  }
 }
 
 @keyframes logo-pulse {
