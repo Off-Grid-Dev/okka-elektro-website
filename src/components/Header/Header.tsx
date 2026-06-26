@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import MobileMenu from "@components/MobileMenu";
 import styles from "./Header.module.css";
 
@@ -14,10 +15,12 @@ export default function Header() {
 
       <Link href="/" className={styles.logo}>
         <div className={styles.logoMark}>
-          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M3 9h3M12 9h3M9 3v3M9 12v3" stroke="var(--color-volt-900)" strokeWidth="2" strokeLinecap="round" />
-            <circle cx="9" cy="9" r="2.5" stroke="var(--color-volt-900)" strokeWidth="1.5" />
-          </svg>
+          <Image
+            src="./nerd-favicon.svg"
+            alt="nerd icon"
+            width={44}
+            height={44}
+          />
         </div>
         <span className={styles.logoText}>
           okka<span className={styles.logoAccent}>_</span>elektro

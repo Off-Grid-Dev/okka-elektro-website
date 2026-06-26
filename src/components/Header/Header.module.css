@@ -23,15 +23,20 @@
 }
 
 .logoMark {
-  width: 32px;
-  height: 32px;
+  width: 36px;
+  height: 36px;
   background-color: var(--color-volt-300);
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-md);
+  overflow: clip;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
   animation: logo-pulse 990ms ease-in-out;
+
+  @media(max-width: 900px) {
+    margin-inline-start: 55%;
+  }
 }
 
 @keyframes logo-pulse {
