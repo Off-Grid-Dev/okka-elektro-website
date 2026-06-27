@@ -9,6 +9,11 @@
   position: relative;
   max-width: var(--max-w-max);
   margin-inline: auto;
+
+
+  @media(prefers-color-scheme: light) {
+    background-color: var(--color-status-info-bg);
+  }
 }
 
 /* ── Logo ─────────────────────────────────────────────────── */

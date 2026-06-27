@@ -16,7 +16,7 @@ export default function Header() {
       <Link href="/" className={styles.logo}>
         <div className={styles.logoMark}>
           <Image
-            src="./nerd-favicon.svg"
+            src="./nerd-favicon-dark.svg"
             alt="nerd icon"
             width={44}
             height={44}
