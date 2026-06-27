@@ -1,6 +1,10 @@
 .footer {
   background-color: var(--color-surface-default);
   border-top: var(--border-thin) solid var(--color-border-tertiary);
+
+  @media(prefers-color-scheme: light) {
+    background-color: var(--color-status-info-bg);
+  }
 }
 
 /* ── Top row ──────────────────────────────────────────────── */

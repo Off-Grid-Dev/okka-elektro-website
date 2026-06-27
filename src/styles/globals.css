@@ -62,7 +62,6 @@
   --color-text-primary: var(--color-slate-900);
   --color-text-secondary: var(--color-slate-500);
   --color-text-tertiary: var(--color-slate-500);
-  /* ↑ was slate-300 (2.6:1 ❌) → slate-500 (5.9:1 ✅) */
   --color-text-inverse: #ffffff;
   --color-text-brand: var(--color-cyan-700);
   --color-text-accent: var(--color-volt-700);
